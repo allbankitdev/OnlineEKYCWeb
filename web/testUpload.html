@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="icon" type="image/x-icon" href="Bootstrap/assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="Bootstrap/css/styles.css" rel="stylesheet" />
+        <link href="Bootstrap/DropZone/dropzone.min.css" rel="stylesheet" />
+    </head>
+    <body>
+
+     <form enctype="multipart/form-data" method="post" id="EKYCFormFiles" action="EKYCFormFiles">  
+                                                <div>
+                                                </div> 
+                                                <div class="form-row row">
+                                                    <div class="form-group col-sm-4">
+                                                        <label for="inputUsername">Type of ID</label>
+                                                        <select class="form-control ids1" name="inputIDClass" id="inputIDClassZ"  data-sb-validations="required">
+                                                            <option value="">Select ID Type</option>
+                                                            <option value='ID1'>Passport</option>
+                                                            <option value='ID2'>Driver`s License</option>
+                                                            <option value='ID3'>PRC ID</option>
+                                                            <option value='ID4'>NBI Clearance</option>
+                                                            <option value='ID5'>Police Clearance / Police Clearance ID</option>
+                                                            <option value='ID6'>Postal ID</option>
+                                                            <option value='ID7'>Voters ID / Voters Certification</option>
+                                                            <option value='ID8'>TIN</option>
+                                                            <option value='ID9'>Barangay Certification / Barangay ID</option>
+                                                            <option value='ID10'>GSIS e-Card/UMID</option>
+                                                            <option value='ID11'>SSS</option>
+                                                            <option value='ID12'>Senior Citizen Card</option>
+                                                            <option value='ID13'>Overseas Worker Welfare Admin (OWWA) ID</option>
+                                                            <option value='ID14'>OFW ID</option>
+                                                            <option value='ID15'>Seaman`s Book</option>
+                                                            <option value='ID16'>Alien/Immigrant Certificate of Reg.</option>
+                                                            <option value='ID17'>Government ID/GOCC ID</option>
+                                                            <option value='ID18'>Cert. from National Council (NCWDP)</option>
+                                                            <option value='ID19'>DSWD Certification</option>
+                                                            <option value='ID20'>Integrated Bar of the Phil. (IBP) ID</option>
+                                                            <option value='ID21'>Company ID</option>
+                                                            <option value='ID22'>School ID</option>
+                                                            <option value='ID23'>National ID</option>
+                                                            <option value='ID24'>SEC Certification of Registration</option>
+                                                            <option value='ID25'>Business Registration Certificate</option>
+                                                            <option value='ID26'>Seafarers’ Registration Certificate</option>
+
+                                                        </select>  
+                                                    </div>
+                                                    <div class="form-group col-sm-4">
+                                                        <label for="inputPassword4">ID Number</label>
+                                                        <input type="text" class="form-control ids2" id="inputIDRefZ" name="inputIDRef" placeholder="">
+                                                    </div>
+                                                    <div class="form-group col-sm-4">
+                                                        <label for="inputPassword4"></label>
+                                                        <input type="file" class="form-control" accept="image/*" name="ID" id="ID">
+                                                        <span id="IDspan"></span>   </div>
+                                                </div>
+
+                                                <br><div class="form-group">
+                                                    <label for="inputUsername">Signature</label>
+
+                                                    <input type="file" class="form-control" accept="image/*" name="Signature" id="Signature">
+                                                    <span id="Signaturespan"></span>
+                                                </div>
+
+                                                <br><div class="form-group">
+                                                    <label for="inputUsername">Selfie</label>
+                                                    <input type="file" class="form-control" max-file-size="1000000" accept="image/*" capture name="Selfie" id="Selfie">
+                                                    <span id="Selfiespan"></span>
+
+                                                </div>
+                                                <br>
+
+                                                <button type="button" class="btn btn-primary" onclick="ValidateFile()" >Next</button>
+                                            </form>
+        <!--jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="Bootstrap/js/scripts.js"></script>
+        <script src="Bootstrap/DropZone/dropzone.min.js"></script>
+
+        <script>
+            // Note that the name "myDropzone" is the camelized
+            // id of the form.
+            Dropzone.options.myDropzone = {
+                //INITIALIZE THE DROPZONE PLUGIN
+
+                // Prevents Dropzone from uploading dropped files immediately
+                autoProcessQueue: false,
+                addRemoveLinks: true,
+                parallelUploads: 1,
+                acceptedFiles: ".png,.jpg",
+                maxFilesize: 1,
+                timeout: 0,
+
+                init: function () {
+                    var submitButton = document.querySelector("#submit-all");
+                    myDropzone = this; // closure
+
+                    submitButton.addEventListener("click", function () {
+                        myDropzone.processQueue(); // Tell Dropzone to process all queued files.
+
+                    });
+
+                    // You might want to show the submit button only when 
+                    // files are dropped here:
+                    this.on("addedfile", function () {
+                        // Show submit button here and/or inform user to click it.
+                        $('#submit-all').show();
+                    });
+                    this.on("success", function () {
+                        myDropzone.removeAllFiles(true); // REMOVE ALL FILES
+                        alert("Upload Success!");
+                        $('#my-dropzone')[0].reset();
+
+
+                    });
+
+                }
+            };
+        </script><script>
+            $('#attachementFile').submit(function (e) {
+                var returnmess = "", title = "", color = "", mess = "", userid = "";
+                var form = $(this);
+                var dataArray = $(form).serializeArray();
+                $.ajax({
+                    url: 'EKYCFormFiles',
+                    type: "POST",
+                    data: new FormData(this),
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    success: function (data) {
+
+                        alert(data);
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        console.log("Error! Change Password (New Password)" + thrownError);
+                    }
+                });
+                e.preventDefault();
+            });</script>
+    </body>
+
+</html>

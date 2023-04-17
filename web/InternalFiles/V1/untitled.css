@@ -1,0 +1,496 @@
+/*
+	@name untitled
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_landing_page_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+}
+
+#_bg__landing_page_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,1);
+}
+
+
+#shutterstock_1939116901_1 {
+	top: -266px;
+	left: -21.71px;
+	width: 2530.42px;
+	height: 1282px;
+}
+
+
+#rectangle_1 {
+	top: 674px;
+	left: 240px;
+	width: 291px;
+	height: 68px;
+	-ms-border-radius: 23px;
+	-o-border-radius: 23px;
+	-moz-border-radius: 23px;
+	-webkit-border-radius: 23px;
+	border-radius: 23px;
+	background:rgba(99,174,92,1);
+}
+
+
+#get_started__ {
+	top: 694px;
+	left: 292px;
+	width: 204px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#__this_is_available_for_new_customer_only {
+	top: 770px;
+	left: 240px;
+	width: 289px;
+	height: 29.041320304871px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15.62px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#logo_tb_white__1__1 {
+	top: -36px;
+	left: 56px;
+	width: 330px;
+	height: 286px;
+}
+
+#open_an_account_made_easier {
+	top: 338px;
+	left: 105px;
+	width: 1035px;
+	height: 108px;
+}
+
+#open_an_account_made_easier_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1088px;
+	height: 175px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 96px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#open_an_account_made_easier_ek2 {
+	top: 115px;
+	left: 0px;
+	width: 1088px;
+	height: 175px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 96px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#welcome_to_allbank_online_ekyc {
+	top: 588px;
+	left: 105px;
+	width: 506px;
+	height: 55.882079124451px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.76px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#copyright___allbank_2021 {
+	top: 1030px;
+	left: 44px;
+	width: 362px;
+	height: 54.942000007629px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.18px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#privacy_policy {
+	top: 1030px;
+	left: 1477px;
+	width: 206px;
+	height: 54.592000007629px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.18px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#terms_of_use {
+	top: 1030px;
+	left: 1702px;
+	width: 197px;
+	height: 54.592000007629px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.18px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_5282541_fb_social_media_facebook_facebook_logo_social_network_icon_1 {
+	top: 1023px;
+	left: 850px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#_5282544_camera_instagram_social_media_social_network_instagram_logo_icon_1 {
+	top: 1023px;
+	left: 936px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#_5282542_linkedin_network_social_network_linkedin_logo_icon_1 {
+	top: 1023px;
+	left: 1022px;
+	width: 48px;
+	height: 48px;
+}
+
+#page_account_type_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+}
+
+#_bg__account_type_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,1);
+}
+
+
+#shutterstock_1939116901_1_ek1 {
+	top: -266px;
+	left: -21.71px;
+	width: 2530.42px;
+	height: 1282px;
+}
+
+
+#rectangle_2 {
+	opacity:0.54000002145767;
+	top: 188px;
+	left: 68px;
+	width: 892px;
+	height: 801px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background:rgba(145.53,143.18,143.18,0.54);
+}
+
+
+#logo_tb_white__1__1_ek1 {
+	top: -36px;
+	left: 56px;
+	width: 330px;
+	height: 286px;
+}
+
+
+#copyright___allbank_2021_ek1 {
+	top: 1030px;
+	left: 44px;
+	width: 362px;
+	height: 54.942000007629px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.18px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#privacy_policy_ek1 {
+	top: 1030px;
+	left: 1477px;
+	width: 206px;
+	height: 54.592000007629px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.18px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#terms_of_use_ek1 {
+	top: 1030px;
+	left: 1702px;
+	width: 197px;
+	height: 54.592000007629px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 29.18px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_5282541_fb_social_media_facebook_facebook_logo_social_network_icon_1_ek1 {
+	top: 1023px;
+	left: 850px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#_5282544_camera_instagram_social_media_social_network_instagram_logo_icon_1_ek1 {
+	top: 1023px;
+	left: 936px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#_5282542_linkedin_network_social_network_linkedin_logo_icon_1_ek1 {
+	top: 1023px;
+	left: 1022px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#rectangle_3 {
+	opacity:0.54000002145767;
+	top: 365px;
+	left: 101px;
+	width: 826px;
+	height: 167px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background:rgba(255,255,255,0.54);
+}
+
+
+#rectangle_6 {
+	opacity:0.54000002145767;
+	top: 595px;
+	left: 101px;
+	width: 826px;
+	height: 167px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background:rgba(255,255,255,0.54);
+}
+
+
+#rectangle_7 {
+	opacity:0.54000002145767;
+	top: 817px;
+	left: 101px;
+	width: 826px;
+	height: 167px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background:rgba(255,255,255,0.54);
+}
+
+
+#cash_card__mobile_velocity_card_ {
+	top: 377px;
+	left: 428px;
+	width: 400px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#basic_deposit_account__bda_ {
+	top: 604px;
+	left: 428px;
+	width: 333px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#regular_savings_account__rsa_ {
+	top: 825px;
+	left: 428px;
+	width: 358px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#mbv_card2_1 {
+	top: 377px;
+	left: 133px;
+	width: 226.27px;
+	height: 143px;
+}
+
+
+#account_type_ek3 {
+	top: 226px;
+	left: 271px;
+	width: 522px;
+	height: 120px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 64px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#select_an_account_type_to_open {
+	top: 314px;
+	left: 392px;
+	width: 275px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 18px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#black_card_design_front1_2 {
+	top: 841px;
+	left: 173px;
+	width: 194px;
+	height: 143.35px;
+}
+
+
+#pink_card_design_front_1 {
+	top: 825px;
+	left: 149px;
+	width: 194px;
+	height: 125.22px;
+}
+
+
+#pink_card_design_front_2 {
+	top: 626px;
+	left: 173px;
+	width: 194px;
+	height: 125.22px;
+}
+
+
+#black_card_design_front1_3 {
+	top: 602px;
+	left: 149px;
+	width: 194px;
+	height: 143.35px;
+}
+
+
+#__description_ {
+	top: 435px;
+	left: 544px;
+	width: 168px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#__description__ek1 {
+	top: 674px;
+	left: 544px;
+	width: 168px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#__description__ek2 {
+	top: 901px;
+	left: 545px;
+	width: 168px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+
+/* Add your custom CSS here */
